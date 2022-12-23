@@ -1,0 +1,4 @@
+git fetch assignments-base
+git merge assignments-base/assignment4
+git submodule update --init --recursive
+git push origin master
