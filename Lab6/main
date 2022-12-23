@@ -1,0 +1,4 @@
+git remote add buildroot-assignments-base
+git fetch buildroot-assignments-base
+git merge buildroot-assignments-base/master
+git submodule update --init --recursive
