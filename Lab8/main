@@ -1,0 +1,11 @@
+git remote rename origin assignment-4-remote
+
+git remote add buildroot-assignments-base https://github.com/cu-ecen-aeld/buildroot-assignments-base.git buildroot-assignments-base
+
+git merge buildroot-assignments-base/assignment5
+
+git submodule update --init --recursive
+
+git remote add origin <your github classroom submission repo created with the Assignment 5 repository link above>
+
+git push origin master
