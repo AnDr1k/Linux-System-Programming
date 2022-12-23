@@ -1,0 +1,15 @@
+git remote add assignments-base https://github.com/cu-ecen-aeld/aesd-assignments.git
+
+git fetch assignments-base
+git merge assignments-base/master
+git submodule update --init --recursive
+git submodule add 
+git submodule update --init --recursive
+./unit-test.sh
+conf/username.txt
+./unit-test.sh
+finder.sh /tmp/aesd/assignment1 linux
+writer.sh /tmp/aesd/assignment1/sample.txt ios
+/tmp/aesd/assignment1/sample.txt
+finder-test.sh
+full-test.sh
