@@ -1,0 +1,11 @@
+git remote remove origin
+git remote add origin <url>
+git fetch assignments-base
+git merge assignments-base/assignment2
+git submodule update --init --recursive
+git push origin master
+assignments/assignment2/cross-compile.txt
+-print-sysroot 
+finder-app/finder-test.sh
+./full-test.sh
+assignments/assignment2/cross-compile.txt
