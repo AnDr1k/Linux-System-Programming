@@ -1,0 +1,4 @@
+git fetch assignments-base
+git merge assignments-base/assignment5
+git submodule update --init --recursive
+git remote get-url origin
