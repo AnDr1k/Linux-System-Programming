@@ -1,0 +1,8 @@
+git remote remove origin
+git remote add origin <url>
+git fetch assignments-base
+git merge assignments-base/assignment3-part-1
+git submodule update --init --recursive
+git push origin master
+ unit-test.sh
+ 
